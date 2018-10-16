@@ -10,7 +10,7 @@ secret_code = 'asfdsl5ksagxxIxxasfeivaa452xxlovexxas54vedaxxyouxxaf4ea'
 # *的使用
 # a = 'xxyxy12'
 # b = re.findall('x*',a)
-# print b
+# print(b)
 
 # ?的使用
 # a = 'xy123'
