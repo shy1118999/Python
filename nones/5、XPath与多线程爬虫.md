@@ -19,4 +19,24 @@ XML Path Language：XML路径语言
 	from lxml import etree
 	Selector = etree.HTML(网页源代码)
 	Selector.xpath(一段神奇的符号)
+
+XPath与HTML结构
+
+	树桩结构
+	逐层展开
+	逐层定位
+	寻找独立节点
+
+获取网页元素的Xpath
+
+	手动分析法
+	Chrome生成法
+
+
+应用XPath提取内容
+
+	//定位根节点
+	/往下层寻找
+	提取文本内容:/text()
+	提取属性内容:/@xxxx
 	
