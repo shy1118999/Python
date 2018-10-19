@@ -40,3 +40,26 @@ XPath与HTML结构
 	提取文本内容:/text()
 	提取属性内容:/@xxxx
 	
+神器XPath的特殊用法
+
+	以相同的字符开头
+
+		starts-with(@属性名称，属性字符相同部分)
+
+	标签套标签
+
+		string(.)
+
+Python的并行化
+
+	多个线程同时处理任务
+	高效
+	快速
+
+map的使用
+
+	map函数一手包办了序列操作、参数传递和结果保存等一系列的操作。
+	from multiprocessing.dummy import Pool
+	pool = Pool(4)
+	results = pool.map(爬取函数，网址列表)
+	
